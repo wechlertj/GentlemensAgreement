@@ -42,6 +42,7 @@
 % > formats: \chapter
     \renewcommand*\chapterheadstartvskip{\vspace*{-8.5em}}
     \renewcommand*\chapterheadendvskip{\vspace*{5\baselineskip}}
+    \renewcommand*{\thechapter}{\S\,\arabic{chapter}}
     \renewcommand*{\chapterformat}{%
         \ctchapternumber{\thechapter}%
     }
@@ -70,19 +71,24 @@
     }
 %
 % > formats: \section
+    \renewcommand*{\thesection}{\arabic{section}}
     \renewcommand*{\sectionformat}{%
         \usekomafont{section}%
-        \makebox[0pt][r]{\color{black} \S\,\thesection\hspace*{10pt}}%
+        \makebox[0pt][r]{\color{black}\thesection\:}%
     }
 %
 % > formats: \subsection
-    \renewcommand*\thesubsection{\arabic{subsection}}
+    \renewcommand*{\thesubsection}{
+        \thesection.\arabic{subsection}
+    }
     \renewcommand*{\subsectionformat}{%
         \usekomafont{subsection}%
-        \makebox[0pt][r]{\color{black}\thesubsection\hspace*{10pt}}%
+        \makebox[0pt][r]{\color{black}\thesubsection\:}%
     }
 % > formats: \subsubsection
-    \renewcommand*{\thesubsubsection}{\alph{subsubsection}}
+    \renewcommand*{\thesubsubsection}{
+        \thesubsection.\arabic{subsubsection}
+    }
 
     \setcounter{secnumdepth}{\subsubsectionnumdepth}
 
