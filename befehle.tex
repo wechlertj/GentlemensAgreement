@@ -75,10 +75,15 @@
     }
 %
 % > formats: \subsection
+    \renewcommand*\thesubsection{\arabic{subsection}}
     \renewcommand*{\subsectionformat}{%
         \usekomafont{subsection}%
         \makebox[0pt][r]{\color{black}\thesubsection\hspace*{10pt}}%
     }
+% > formats: \subsubsection
+    \renewcommand*{\thesubsubsection}{\alph{subsubsection}}
+
+    \setcounter{secnumdepth}{\subsubsectionnumdepth}
 %
 % Zitatdarstellung
     \newcommand{\hugequote}{%
