@@ -4,7 +4,7 @@
     \usepackage{amssymb}
     \usepackage{makeidx}
     \usepackage{graphicx}
-    \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+    \usepackage[left=3cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 
 %Farben
     \usepackage{xcolor}
@@ -71,7 +71,7 @@
 % > formats: \section
     \renewcommand*{\sectionformat}{%
         \usekomafont{section}%
-        \makebox[0pt][r]{\color{black}\thesection\hspace*{10pt}}%
+        \makebox[0pt][r]{\color{black} \S\,\thesection\hspace*{10pt}}%
     }
 %
 % > formats: \subsection
@@ -88,9 +88,7 @@
     \vskip -.26em}%
     }
     \newcommand{\chapterquote}[3]{%
-    \begin{minipage}{.865\textwidth}%
-        \begin{flushright}
-            \begin{minipage}{.65\textwidth}%
+    \begin{thesis_quotation}%
                 \begin{flushleft}
                     {\hugequote}\textit{#1}
                 \end{flushleft}
@@ -98,21 +96,20 @@
                     --- \textbf{#2} \\
                     #3
                 \end{flushright}
-            \end{minipage}%
-        \end{flushright}
-    \end{minipage}%
-    \bigskip
+    \end{thesis_quotation}%
+    \\\vspace{1cm}
     }
     %
     % Clean Quotation environment
     \newenvironment{thesis_quotation}%
     {%
-    \begin{minipage}{.865\textwidth}%
+    \begin{minipage}{\textwidth}%
         \begin{flushright}
-            \begin{minipage}{.95\textwidth}%
+            \begin{minipage}{.85\textwidth}%
     }%
     {%
             \end{minipage}%
         \end{flushright}
-    \end{minipage}%
+    \end{minipage}
+    \\%
     }%
