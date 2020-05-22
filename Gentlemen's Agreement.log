@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.5)  22 MAY 2020 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.5)  22 MAY 2020 17:26
 entering extended mode
 **"c:/Users/tim-j/Google Drive (wechlertimjonas@gmail.com)/Persönlich/Charakter/GentlemensAgreement/Gentlemen's Agreement.tex"
 ("c:/Users/tim-j/Google Drive (wechlertimjonas@gmail.com)/Persönlich/Charakter/GentlemensAgreement/Gentlemen's Agreement.tex"
@@ -244,163 +244,28 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen153
 \Gm@layoutvoffset=\dimen154
 \Gm@dimlist=\toks23
- ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cfg")) ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count194
-\l__pdf_internal_box=\box49
-) ("c:/Users\tim-j\Google Drive (wechlertimjonas@gmail.com)\Persönlich\Charakter\GentlemensAgreement\Gentlemen's Agreement.aux")
-\openout1 = `"Gentlemen's Agreement.aux"'.
+ ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
- ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count195
-\scratchdimen=\dimen155
-\scratchbox=\box50
-\nofMPsegments=\count196
-\nofMParguments=\count197
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count198
-\MPscratchDim=\dimen156
-\MPnumerator=\count199
-\makeMPintoPDFobject=\count266
-\everyMPtoPDFconversion=\toks25
-) ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
- ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
- ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
- ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))) ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
- ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
- ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifluatex.sty"
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)))) ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcmds.sty"
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=731.23584pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-48.36449pt
-* \headheight=15.0pt
-* \headsep=18.0pt
-* \topskip=10.0pt
-* \footskip=42.0pt
-* \marginparwidth=74.68849pt
-* \marginparsep=12.8401pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+! LaTeX Error: File `befehle.tex' not found.
 
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 15.
-("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmss.fd"
-File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
- ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
- ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
 
+Enter file name: 
+ :11: Emergency stop.
+<read *> 
+         
+l.11 \input{befehle.tex}
+                        
+*** (cannot \read from terminal in nonstop modes)
 
-
-{C:/Users/tim-j/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] ("c:/Users\tim-j\Google Drive (wechlertimjonas@gmail.com)\Persönlich\Charakter\GentlemensAgreement\chapter/vorwort.tex") [2
-
-] ("c:/Users\tim-j\Google Drive (wechlertimjonas@gmail.com)\Persönlich\Charakter\GentlemensAgreement\Gentlemen's Agreement.toc")
-\tf@toc=\write3
-\openout3 = `"Gentlemen's Agreement.toc"'.
-
- [3
-
-] ("c:/Users\tim-j\Google Drive (wechlertimjonas@gmail.com)\Persönlich\Charakter\GentlemensAgreement\chapter/prestige.tex"
-chapter 1.
-) ("c:/Users\tim-j\Google Drive (wechlertimjonas@gmail.com)\Persönlich\Charakter\GentlemensAgreement\chapter/bildung.tex" [4
-
-]
-chapter 2.
-) ("c:/Users\tim-j\Google Drive (wechlertimjonas@gmail.com)\Persönlich\Charakter\GentlemensAgreement\chapter/kleidung.tex" [5
-
-]
-chapter 3.
-) ("c:/Users\tim-j\Google Drive (wechlertimjonas@gmail.com)\Persönlich\Charakter\GentlemensAgreement\chapter/lebenskunst.tex" [6
-
-]
-chapter 4.
-) ("c:/Users\tim-j\Google Drive (wechlertimjonas@gmail.com)\Persönlich\Charakter\GentlemensAgreement\chapter/konsum.tex" [7
-
-]
-chapter 5.
-) ("c:/Users\tim-j\Google Drive (wechlertimjonas@gmail.com)\Persönlich\Charakter\GentlemensAgreement\chapter/hygiene.tex" [8
-
-]
-chapter 6.
-) [9
-
-] ("c:/Users\tim-j\Google Drive (wechlertimjonas@gmail.com)\Persönlich\Charakter\GentlemensAgreement\Gentlemen's Agreement.aux") ) 
+ 
 Here is how much of TeX's memory you used:
- 6953 strings out of 480893
- 124840 string characters out of 2898027
- 488327 words of memory out of 3000000
- 22731 multiletter control sequences out of 15000+200000
- 538762 words of font info for 40 fonts, out of 3000000 for 9000
+ 5741 strings out of 480893
+ 99792 string characters out of 2898027
+ 474490 words of memory out of 3000000
+ 21613 multiletter control sequences out of 15000+200000
+ 533101 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,6n,72p,10243b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1000.pfb><C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx2074.pfb>
-Output written on "c:/Users\tim-j\Google Drive (wechlertimjonas@gmail.com)\Persönlich\Charakter\GentlemensAgreement\Gentlemen's Agreement.pdf" (9 pages, 91772 bytes).
-PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 45i,1n,72p,10243b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
+ :11:  ==> Fatal error occurred, no output PDF file produced!
