@@ -44,86 +44,67 @@
     \renewcommand*\chapterheadendvskip{\vspace*{5\baselineskip}}
     \renewcommand*{\thechapter}{\S\arabic{chapter}}
     \renewcommand*{\chapterformat}{%
-        \ctchapternumber{\thechapter}%
-    }
-    \renewcommand{\chapterlinesformat}[3]{%
-        \ctchaptertitle{#3}%
-        #2\par%
-    }
-
-    \newcommand{\ctchapternumber}[1]{%
-        \usekomafont{chapter}%
-        \begin{minipage}[t]{0.3\textwidth}%
-            \raggedleft{%
-                {\vspace*{-0.5cm}\color{ctcolorchapterline}\rule[-5pt]{2pt}{5.5cm}}%
-                \quad%
-                {\color{ctcolorchapternum}\fontsize{60}{60}\selectfont\textbf{#1}}%
-            }%
-        \end{minipage}%
-    }
-    \newcommand{\ctchaptertitle}[1]{%
-        \usekomafont{chapter}%
-        \begin{minipage}[t]{0.7\textwidth}%
-            \vspace*{5.85em}%
-            \raggedright%
-            #1%
-        \end{minipage}%
-    }
-%
+		\usekomafont{chapter}%
+		{\thechapter\hspace*{10pt}}%
+	}
+    
 % > formats: \section
     \renewcommand*{\thesection}{\arabic{section}}
     \renewcommand*{\sectionformat}{%
-        \usekomafont{section}%
-        \makebox[0pt][r]{\color{black}\thesection}%
-    }
+		\usekomafont{section}%
+		{\thesection\hspace*{5pt}}%
+	}
+
 %
 % > formats: \subsection
-    \renewcommand*{\thesubsection}{
-        \thesection.\arabic{subsection}
-    }
+
     \renewcommand*{\subsectionformat}{%
         \usekomafont{subsection}%
-        \makebox[0pt][r]{\color{black}\thesubsection}%
-    }
-% > formats: \subsubsection
-    \renewcommand*{\thesubsubsection}{
-        \thesubsection.\arabic{subsubsection}
+        {\thesubsection\hspace*{5pt}}%
     }
 
-    \setcounter{secnumdepth}{\subsubsectionnumdepth}
-
-
+    \renewcommand*{\subsubsectionformat}{%
+        \usekomafont{subsubsection}%
+        {\thesubsubsection\hspace*{5pt}}%
+    }
+% > formats: \parapgraph
+    \renewcommand*{\theparagraph}{(\alph{paragraph}.)}
+    \renewcommand*{\paragraphformat}{\theparagraph\hspace*{5pt}}
+    
+    \setcounter{secnumdepth}{\paragraphnumdepth}
 
 % Zitatdarstellung
-    \newcommand{\hugequote}
-    {\book\fontsize{75}{80}\selectfont%
-    \hspace*{-.475em}\color{graylight}%
-    \textit{\glqq}%
-    \vspace{-.26em}%
+
+    \newcommand{\hugequote}{%
+        {\book\fontsize{75}{80}\selectfont%
+        \hspace*{-.475em}\color{graylight}%
+        \textit{\glqq}%
+        \vskip -.26em}%
+
     }
     \newcommand{\chapterquote}[3]{%
-    \begin{thesis_quotation}%
-                \begin{flushleft}
-                    {\hugequote}\textit{#1}
-                \end{flushleft}
-                \begin{flushright}
-                    --- \textbf{#2} \\
-                    #3
-                \end{flushright}
-    \end{thesis_quotation}%
-    \\\vspace{1cm}
+        \begin{thesis_quotation}%
+            \begin{flushleft}
+                {\hugequote}\textit{#1}
+            \end{flushleft}
+            \begin{flushright}
+                --- \textbf{#2} \\
+                #3
+            \end{flushright}
+        \end{thesis_quotation}%
     }
     %
     % Clean Quotation environment
     \newenvironment{thesis_quotation}%
-    {%
-    \begin{minipage}{\textwidth}%
-        \begin{flushright}
-            \begin{minipage}{.85\textwidth}%
-    }%
-    {%
-            \end{minipage}%
-        \end{flushright}
-    \end{minipage}
-    \\%
-    }%
+        {%
+            \begin{minipage}{\textwidth}%
+                \begin{flushright}
+                    \begin{minipage}{.85\textwidth}%
+        }%
+        {%
+                    \end{minipage}%
+                \end{flushright}
+            \end{minipage}
+            \vspace*{1cm}
+            %
+        }%
