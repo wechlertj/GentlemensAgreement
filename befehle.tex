@@ -74,12 +74,24 @@
     \setcounter{secnumdepth}{\paragraphnumdepth}
 
 % Zitatdarstellung
-
-    \newcommand{\hugequote}{%
+    \newenvironment{thesis_quotation}%
+        {%
+            \begin{minipage}{\textwidth}%
+                \begin{flushright}
+                    \begin{minipage}{.85\textwidth}%
+        }%
+        {%
+                    \end{minipage}%
+                \end{flushright}
+            \end{minipage}
+            \vspace*{1cm}
+            %
+        }%
+    \newcommand{\hugequote}%
         {\book\fontsize{75}{80}\selectfont%
         \hspace*{-.475em}\color{graylight}%
         \textit{\glqq}%
-        \vskip -.26em}%
+        \vspace{ -.26em}%
 
     }
     \newcommand{\chapterquote}[3]{%
@@ -95,16 +107,4 @@
     }
     %
     % Clean Quotation environment
-    \newenvironment{thesis_quotation}%
-        {%
-            \begin{minipage}{\textwidth}%
-                \begin{flushright}
-                    \begin{minipage}{.85\textwidth}%
-        }%
-        {%
-                    \end{minipage}%
-                \end{flushright}
-            \end{minipage}
-            \vspace*{1cm}
-            %
-        }%
+    

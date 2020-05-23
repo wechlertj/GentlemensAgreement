@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.7)  23 MAY 2020 18:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.7)  23 MAY 2020 19:07
 entering extended mode
 **"c:/Users/tim-j/Projekte/GentlemensAgreement/Gentlemen's Agreement.tex"
 ("c:/Users/tim-j/Projekte/GentlemensAgreement/Gentlemen's Agreement.tex"
@@ -598,27 +598,17 @@ chapter \S 3.
 
 ]
 chapter \S 4.
-LaTeX Font Info:    Trying to load font information for T1+pbk on input line 3.
+LaTeX Font Info:    Trying to load font information for T1+pbk on input line 4.
 ("C:\Users\tim-j\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1pbk.fd"
 File: t1pbk.fd 2001/06/04 font definitions for T1/pbk.
 )
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <11> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 3.
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <75> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 3.
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <75> not available
-(Font)              Font shape `T1/pbk/l/it' tried instead on input line 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--5
-
- []
-
-[9
+(Font)              Font shape `T1/pbk/l/it' tried instead on input line 4.
+ [9
 
 ]) (c:/Users\tim-j\Projekte\GentlemensAgreement\chapter/konsum.tex [10]
 chapter \S 5.
@@ -640,15 +630,15 @@ Package rerunfilecheck Info: File `"Gentlemen's Agreement".out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 27.
  ) 
 Here is how much of TeX's memory you used:
- 11351 strings out of 492449
- 191449 string characters out of 3119903
+ 11348 strings out of 492449
+ 191423 string characters out of 3119903
  412278 words of memory out of 3000000
- 15411 multiletter control sequences out of 15000+200000
- 62133 words of font info for 61 fonts, out of 3000000 for 9000
+ 15408 multiletter control sequences out of 15000+200000
+ 59365 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,9n,72p,10126b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/tim-j/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/bookman/ubkli8a.pfb>
-Output written on "c:/Users\tim-j\Projekte\GentlemensAgreement\Gentlemen's Agreement.pdf" (12 pages, 180244 bytes).
+Output written on "c:/Users\tim-j\Projekte\GentlemensAgreement\Gentlemen's Agreement.pdf" (12 pages, 179668 bytes).
 PDF statistics:
  294 PDF objects out of 1000 (max. 8388607)
  60 named destinations out of 1000 (max. 500000)
