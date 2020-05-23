@@ -42,7 +42,7 @@
 % > formats: \chapter
     \renewcommand*\chapterheadstartvskip{\vspace*{-8.5em}}
     \renewcommand*\chapterheadendvskip{\vspace*{5\baselineskip}}
-    \renewcommand*{\thechapter}{\S\,\arabic{chapter}}
+    \renewcommand*{\thechapter}{\S\arabic{chapter}}
     \renewcommand*{\chapterformat}{%
         \ctchapternumber{\thechapter}%
     }
@@ -74,7 +74,7 @@
     \renewcommand*{\thesection}{\arabic{section}}
     \renewcommand*{\sectionformat}{%
         \usekomafont{section}%
-        \makebox[0pt][r]{\color{black}\thesection\:}%
+        \makebox[0pt][r]{\color{black}\thesection}%
     }
 %
 % > formats: \subsection
@@ -83,7 +83,7 @@
     }
     \renewcommand*{\subsectionformat}{%
         \usekomafont{subsection}%
-        \makebox[0pt][r]{\color{black}\thesubsection\:}%
+        \makebox[0pt][r]{\color{black}\thesubsection}%
     }
 % > formats: \subsubsection
     \renewcommand*{\thesubsubsection}{
@@ -95,11 +95,11 @@
 
 
 % Zitatdarstellung
-    \newcommand{\hugequote}{%
+    \newcommand{\hugequote}
     {\book\fontsize{75}{80}\selectfont%
     \hspace*{-.475em}\color{graylight}%
     \textit{\glqq}%
-    \vskip -.26em}%
+    \vspace{-.26em}%
     }
     \newcommand{\chapterquote}[3]{%
     \begin{thesis_quotation}%
