@@ -1,42 +1,42 @@
 \babel@toc {ngerman}{}
-\contentsline {chapter}{\numberline {\S 1}Ansehen / Prestige}{5}%
-\contentsline {section}{\numberline {1}Geburtsrecht}{5}%
-\contentsline {section}{\numberline {2}Zugeständisklausel}{5}%
-\contentsline {section}{\numberline {3}Eigennutz}{5}%
-\contentsline {subsection}{\numberline {3.1}Erweiterter Eigennutz}{5}%
-\contentsline {subsection}{\numberline {3.2}Ungerechtfertigte Bereicherung}{5}%
-\contentsline {subsection}{\numberline {3.3}Gerechtfertigte Bereicherung Dritter}{5}%
-\contentsline {chapter}{\numberline {\S 2}Bildung}{6}%
-\contentsline {section}{\numberline {1}Wissen}{6}%
-\contentsline {subsection}{\numberline {1.1}Art des Wissens}{6}%
-\contentsline {subsection}{\numberline {1.2}Von jedem kann man was lernen}{6}%
-\contentsline {section}{\numberline {2}Hinterfragung}{6}%
-\contentsline {subsection}{\numberline {2.1}Vorurteil}{6}%
-\contentsline {subsubsection}{\numberline {2.1.1}Allgemeiner Umgang}{6}%
-\contentsline {subsubsection}{\numberline {2.1.2}Zulässigkeit}{6}%
-\contentsline {section}{\numberline {3}Bildungspflicht}{6}%
-\contentsline {subsection}{\numberline {3.1}Unwissenheit}{6}%
-\contentsline {section}{\numberline {4}Jeder ist Lehrer und Lernender}{6}%
-\contentsline {subsection}{\numberline {4.1}Stolz}{7}%
-\contentsline {chapter}{\numberline {\S 3}Auftreten}{8}%
-\contentsline {section}{\numberline {1}Kleidung}{8}%
-\contentsline {section}{\numberline {2}Accessoire}{8}%
-\contentsline {section}{\numberline {3}Duft}{8}%
-\contentsline {chapter}{\numberline {\S 4}Lebenskunst}{9}%
-\contentsline {section}{\numberline {1}Verhalten}{9}%
-\contentsline {subsection}{\numberline {1.1}Erfolg}{9}%
-\contentsline {subsubsection}{\numberline {1.1.1}Erfolg anderer}{9}%
-\contentsline {subsubsection}{\numberline {1.1.2}Eigener Erfolg}{9}%
-\contentsline {subsection}{\numberline {1.2}Loyialität}{9}%
-\contentsline {subsection}{\numberline {1.3}Pünktlichkeit}{9}%
-\contentsline {subsection}{\numberline {1.4}Umsichtigkeit}{9}%
-\contentsline {subsection}{\numberline {1.5}Aufrichtigkeit und Ehrlichkeit}{9}%
-\contentsline {subsection}{\numberline {1.6}Hilfsbereitschaft}{9}%
-\contentsline {subsection}{\numberline {1.7}Über andere reden}{9}%
-\contentsline {subsection}{\numberline {1.8}Wettschulden}{9}%
-\contentsline {subsection}{\numberline {1.9}Vertrauen}{10}%
-\contentsline {subsubsection}{\numberline {1.9.1}VErtrauen anderen schenken}{10}%
-\contentsline {subsection}{\numberline {1.10}anderen Vertrauen}{10}%
-\contentsline {subsection}{\numberline {1.11}Liebe}{10}%
-\contentsline {chapter}{\numberline {\S 5}Konsum}{11}%
-\contentsline {chapter}{\numberline {\S 6}Hygiene}{12}%
+\contentsline {chapter}{\numberline {\S \hspace {0.8pt}1}Ansehen / Prestige}{5}{chapter.1}%
+\contentsline {section}{\numberline {1}Geburtsrecht}{5}{section.1.1}%
+\contentsline {section}{\numberline {2}Zugeständisklausel}{5}{section.1.2}%
+\contentsline {section}{\numberline {3}Eigennutz}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {3.1}Erweiterter Eigennutz}{5}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {3.2}Ungerechtfertigte Bereicherung}{5}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {3.3}Gerechtfertigte Bereicherung Dritter}{5}{subsection.1.3.3}%
+\contentsline {chapter}{\numberline {\S \hspace {0.8pt}2}Bildung}{6}{chapter.2}%
+\contentsline {section}{\numberline {1}Wissen}{6}{section.2.1}%
+\contentsline {subsection}{\numberline {1.1}Art des Wissens}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {1.2}Von jedem kann man was lernen}{6}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2}Hinterfragung}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1}Vorurteil}{6}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Allgemeiner Umgang}{6}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Zulässigkeit}{6}{subsubsection.2.2.1.2}%
+\contentsline {section}{\numberline {3}Bildungspflicht}{6}{section.2.3}%
+\contentsline {subsection}{\numberline {3.1}Unwissenheit}{6}{subsection.2.3.1}%
+\contentsline {section}{\numberline {4}Jeder ist Lehrer und Lernender}{7}{section.2.4}%
+\contentsline {subsection}{\numberline {4.1}Stolz}{7}{subsection.2.4.1}%
+\contentsline {chapter}{\numberline {\S \hspace {0.8pt}3}Auftreten}{8}{chapter.3}%
+\contentsline {section}{\numberline {1}Kleidung}{8}{section.3.1}%
+\contentsline {section}{\numberline {2}Accessoire}{8}{section.3.2}%
+\contentsline {section}{\numberline {3}Duft}{8}{section.3.3}%
+\contentsline {chapter}{\numberline {\S \hspace {0.8pt}4}Lebenskunst}{9}{chapter.4}%
+\contentsline {section}{\numberline {1}Verhalten}{9}{section.4.1}%
+\contentsline {subsection}{\numberline {1.1}Erfolg}{9}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Erfolg anderer}{9}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Eigener Erfolg}{9}{subsubsection.4.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Loyialität}{9}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {1.3}Pünktlichkeit}{9}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {1.4}Umsichtigkeit}{9}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {1.5}Aufrichtigkeit und Ehrlichkeit}{9}{subsection.4.1.5}%
+\contentsline {subsection}{\numberline {1.6}Hilfsbereitschaft}{9}{subsection.4.1.6}%
+\contentsline {subsection}{\numberline {1.7}Über andere reden}{9}{subsection.4.1.7}%
+\contentsline {subsection}{\numberline {1.8}Wettschulden}{10}{subsection.4.1.8}%
+\contentsline {subsection}{\numberline {1.9}Vertrauen}{10}{subsection.4.1.9}%
+\contentsline {subsubsection}{\numberline {1.9.1}VErtrauen anderen schenken}{10}{subsubsection.4.1.9.1}%
+\contentsline {subsection}{\numberline {1.10}anderen Vertrauen}{10}{subsection.4.1.10}%
+\contentsline {subsection}{\numberline {1.11}Liebe}{10}{subsection.4.1.11}%
+\contentsline {chapter}{\numberline {\S \hspace {0.8pt}5}Konsum}{11}{chapter.5}%
+\contentsline {chapter}{\numberline {\S \hspace {0.8pt}6}Hygiene}{12}{chapter.6}%
