@@ -6,21 +6,13 @@
     \usepackage{graphicx}
     \usepackage{hyperref}
     \usepackage[left=3cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
-
+%Probleme 
+    
 %Farben
     \usepackage{xcolor}
     \definecolor{gray}{cmyk}{0,0,0,.8}
     \definecolor{graylight}{gray}{.8}
     \definecolor{reddark}{cmyk}{0,1,.9,.41}
-    \colorlet{ctcolortitle}{black}
-    \colorlet{ctcolorpartnum}{black}
-    \colorlet{ctcolorpartline}{black}
-    \colorlet{ctcolorparttext}{black}
-    \colorlet{ctcolorchapternum}{black}
-    \colorlet{ctcolorchapterline}{gray}
-    \colorlet{ctcolorsection}{black}
-    \colorlet{ctcolorsubsection}{black}
-    \colorlet{ctcolorparagraph}{black}
     
 % Schrift
     \usepackage{lmodern}                    % Schriftart (http://www.tug.dk/FontCatalogue/)
@@ -31,18 +23,9 @@
     	
 
     \newcommand{\book}{\fontfamily{pbk}\fontseries{m}\fontsize{11}{13}\selectfont}
-    \newcommand{\partlabelfont}{\color{ctcolorpartnum}\nobreak\book\fontsize{80}{80}\selectfont}
-    \newcommand{\thesispartfont}{\color{ctcolorparttext}}
-    \newcommand{\thesischapterfont}{\color{black}\nobreak\normalfont\huge \fontfamily{phv}\selectfont}
-    %\newcommand{\thesissectionfont}{\color{ctcolormain}\nobreak\LARGE\bfseries \tgherosfont}
-    \newcommand{\thesissectionfont}{\color{ctcolorsection}\nobreak\normalfont\LARGE \tgherosfont}
-    \newcommand{\thesissubsectionfont}{\color{ctcolorsubsection}\nobreak\normalfont\Large \tgherosfont}
-    \newcommand{\thesisparagraphfont}{\color{ctcolorparagraph}\nobreak\tgherosfont\small\bfseries}
 
 % > formats: \chapter
-    \renewcommand*\chapterheadstartvskip{\vspace*{-8.5em}}
-    \renewcommand*\chapterheadendvskip{\vspace*{5\baselineskip}}
-    \renewcommand*{\thechapter}{\S\arabic{chapter}}
+    \renewcommand*{\thechapter}{\S\hspace{2pt}\arabic{chapter}}
     \renewcommand*{\chapterformat}{%
 		\usekomafont{chapter}%
 		{\thechapter\hspace*{10pt}}%
