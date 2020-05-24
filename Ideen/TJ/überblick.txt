@@ -1,8 +1,9 @@
 Instagram   -- Gentleman RuleBook 
             -- Millionarie Mindeset
-            --
+
 
 Film und Serien
+            -- King's Man
             -- John Wick 
             -- Suits (Harvey Specter)
             -- Fast & Fuorios (Dominik Torreto)
@@ -16,7 +17,7 @@ Reale Personen Promines
             -- Michael Fassbender
             -- Knigge
             -- Simon Sinek (infinit game)
-            -- 
+            -- Hugo Jacomet
 
 Reale Personen Familie und Freunde
             -- Opa (Hinterrötenberg -> Tod)
@@ -25,5 +26,8 @@ Reale Personen Familie und Freunde
             -- Jan Philipp  (Diplomatische Gespräche)
             -- MAtthias (haarpfelge und männer pflege )
 
-
-
+Leküre zum miteinbinden
+            -- Knigge
+            -- Kritik der praktischen Vernunft (Kant)
+            -- Die Struktur wissenschaftlicher Revolution (Thomas S. Kuhn)
+            -- Übermensch (Nietzsche)
