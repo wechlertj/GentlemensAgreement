@@ -28,6 +28,10 @@ Reale Personen Promines
             -- Michael Caine
             -- Jackie Chan
             -- Donnie Yen
+            -- Gregor Gysi
+            -- Thorsten Sträter
+            -- Jan Böhmermann
+            -- Bernard Hoecker
 
 Reale Personen Familie und Freunde
             -- Opa (Hinterrötenberg -> Tod)
