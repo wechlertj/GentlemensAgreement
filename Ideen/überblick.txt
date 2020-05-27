@@ -32,6 +32,7 @@ Reale Personen Promines
             -- Thorsten Sträter
             -- Jan Böhmermann
             -- Bernard Hoecker
+            -- Ralf Schmitz
 
 Reale Personen Familie und Freunde
             -- Opa (Hinterrötenberg -> Tod)
