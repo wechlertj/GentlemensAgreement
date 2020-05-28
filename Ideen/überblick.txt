@@ -30,11 +30,11 @@ Reale Personen Promines
             -- Donnie Yen
             -- Gregor Gysi
             -- Thorsten Sträter
-            -- Jan Böhmermann
+            -- Jan Böhmermann ? 
             -- Bernard Hoecker
 
 Reale Personen Familie und Freunde
-            -- Opa (Hinterrötenberg -> Tod)
+            -- Opa & Oma (Hinterrötenberg -> Tod)
             -- Thomas (Mann von Kathrin)
             -- Onkel Stefen
             -- Jan Philipp  (Diplomatische Gespräche)
@@ -44,6 +44,7 @@ Reale Personen Familie und Freunde
             -- Ronald Wechler und Ulrike Pfau (akzeptanz und toleranz)
             -- Jürgen Pfau (hilfsbereitschaft großzügig)
             -- Frank und Birgit Sokat (Lebenserfahrung, Das richtige Maß an Strenge, Erziehung)
+            -- Olaf (MLP)
 
 Leküre und Autoren zum miteinbinden
             -- Knigge
