@@ -51,7 +51,7 @@ Reale Personen Familie und Freunde
 
 Leküre und Autoren zum miteinbinden
             -- Knigge
-            -- Kritik der praktischen Vernunft (Kant)
+            -- Kritik der praktischen/reinen Vernunft (Kant)
             -- Die Struktur wissenschaftlicher Revolution (Thomas S. Kuhn)
             -- Übermensch (Nietzsche)
             -- Magazin Philosophie: Philossophinnen
@@ -61,7 +61,8 @@ Leküre und Autoren zum miteinbinden
             --                      Wie wir normal gemach werden.
                                     https://www.youtube.com/watch?v=aOX-B2R5Pc0&list=PLD2J53LRH04Y676wfKPHdx_W0sR6m3cEM
             -- Schulz von Tuhn: Das 4-Ohren Modell
-            -- Watzlawick, wie Wirklich ist die Wirklichkeit
+            -- Watzlawick:    "Wie Wirklich ist die Wirklichkeit"
+                              Kommunikationsdingens (Sender/Empfängerprinzip)
 
 Theorien und Statistiken
             -- Spieltheorie (Simon Sinek)
