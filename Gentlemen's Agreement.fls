@@ -162,8 +162,6 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\sapop\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT c:\Users\sapop\Desktop\Schreibmich\Gentlemens Agreement\GentlemensAgreement\chapter\vorwort.tex
 INPUT c:\Users\sapop\Desktop\Schreibmich\Gentlemens Agreement\GentlemensAgreement\chapter\vorwort.tex
-INPUT c:\Users\sapop\Desktop\Schreibmich\Gentlemens Agreement\GentlemensAgreement\Gentlemen's Agreement.toc
-INPUT c:\Users\sapop\Desktop\Schreibmich\Gentlemens Agreement\GentlemensAgreement\Gentlemen's Agreement.toc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr6.tfm
@@ -179,6 +177,9 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx10.tfm
+INPUT c:\Users\sapop\Desktop\Schreibmich\Gentlemens Agreement\GentlemensAgreement\Gentlemen's Agreement.toc
+INPUT c:\Users\sapop\Desktop\Schreibmich\Gentlemens Agreement\GentlemensAgreement\Gentlemen's Agreement.toc
 OUTPUT c:\Users\sapop\Desktop\Schreibmich\Gentlemens Agreement\GentlemensAgreement\Gentlemen's Agreement.toc
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd
@@ -198,7 +199,6 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\bookman\pbkl8t.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\bookman\pbkl8t.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\bookman\pbkli8t.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmri10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\adobe\bookman\pbkli8t.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\bookman\pbkli8r.tfm
 INPUT c:\Users\sapop\Desktop\Schreibmich\Gentlemens Agreement\GentlemensAgreement\chapter\konsum.tex

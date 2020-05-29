@@ -26,6 +26,7 @@
 \contentsline {section}{\numberline {1}Verhalten}{9}{section.4.1}% 
 \contentsline {subsection}{\numberline {1.1}Erfolg}{9}{subsection.4.1.1}% 
 \contentsline {subsubsection}{\numberline {1.1.1}Erfolg anderer}{9}{subsubsection.4.1.1.1}% 
+\contentsline {subsubsection}{\numberline {1.1.2}Eigener Erfolg}{9}{subsubsection.4.1.1.2}% 
 \contentsline {subsection}{\numberline {1.2}Loyialität}{9}{subsection.4.1.2}% 
 \contentsline {subsection}{\numberline {1.3}Pünktlichkeit}{9}{subsection.4.1.3}% 
 \contentsline {subsection}{\numberline {1.4}Umsichtigkeit}{9}{subsection.4.1.4}% 
@@ -34,7 +35,7 @@
 \contentsline {subsection}{\numberline {1.7}Über andere reden}{10}{subsection.4.1.7}% 
 \contentsline {subsection}{\numberline {1.8}Wettschulden}{10}{subsection.4.1.8}% 
 \contentsline {subsection}{\numberline {1.9}Vertrauen}{10}{subsection.4.1.9}% 
-\contentsline {subsubsection}{\numberline {1.9.1}VErtrauen anderen schenken}{10}{subsubsection.4.1.9.1}% 
+\contentsline {subsubsection}{\numberline {1.9.1}Vertrauen anderen schenken}{10}{subsubsection.4.1.9.1}% 
 \contentsline {subsection}{\numberline {1.10}anderen Vertrauen}{10}{subsection.4.1.10}% 
 \contentsline {subsection}{\numberline {1.11}Liebe}{10}{subsection.4.1.11}% 
 \contentsline {chapter}{\numberline {\S \hspace {0.8pt}5}Konsum}{11}{chapter.5}% 
