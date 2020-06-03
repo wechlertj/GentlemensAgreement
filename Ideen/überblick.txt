@@ -64,6 +64,7 @@ Leküre und Autoren zum miteinbinden
             -- Schulz von Tuhn: Das 4-Ohren Modell
             -- Watzlawick:    "Wie Wirklich ist die Wirklichkeit"
                               Kommunikationsdingens (Sender/Empfängerprinzip)
+            -- Charisma Mensch (Lambert)
 
 Theorien und Statistiken
             -- Spieltheorie (Simon Sinek)
