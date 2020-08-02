@@ -5,5 +5,6 @@ Wir versuchen in diesem Projekt ein Buch zu schreiben. Dieses soll als Appell, L
 
 In Anbetracht der Gobalgesellschaftlichen Situationen ist es wichtig das wir alle wieder einen Schritt auf uns zu bewegen und ein miteinander anstreben statt gegeneinander. 
 
-Viele Grüße 
+Viele Grüße
+ 
 Tim-Jonas Wechler
