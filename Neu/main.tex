@@ -1,0 +1,64 @@
+\documentclass[]{scrbook}
+\usepackage[T1]{ fontenc} % Darstellung der Schriften
+\usepackage[ngerman]{babel}% dtsch. Besonderheit.
+\usepackage[utf8]{ inputenc}% Dateikodierung
+\usepackage{microtype} % Verbesserung PDF -Ausgabe
+\usepackage{lmodern,blindtext}% Schrift und Blindtext
+\usepackage{tikz}
+\setlength{\paperwidth}{170mm}% Engelsdorf
+\setlength{\paperheight}{240mm}
+\usepackage{geometry}
+\geometry{    
+    paperwidth=180mm,
+    bindingoffset=10mm,
+    paperheight=240mm,
+    left=20mm,
+    right= 20mm,
+    top=20mm,
+    bottom=25mm,
+}
+ \newgeometry{
+    %total={130mm,240mm},
+    headsep=5mm,
+    headheight=15mm,
+    twoside
+ }
+ \savegeometry{text}
+ \newgeometry{
+    includeheadfoot,
+    twoside=false
+ }
+ \savegeometry{titlepage}
+\usepackage{calc} 
+
+\begin{document}
+    \author{Author name(s)}
+    \title{Book title}
+    \subtitle{-- Monograph --}
+    \loadgeometry{titlepage}
+    \maketitle
+
+
+    \loadgeometry{text}
+    %\frontmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \include{mainmatter/mementomori.tex}
+    %\include{dedication}
+    %\include{foreword}
+    %\include{preface}
+    %\include{acknowledgement}
+
+    %\tableofcontents
+
+    %\include{acronym}
+
+
+    %\mainmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %\include{part}
+    %\include{chapter}
+    %\include{appendix}
+
+    %\backmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %\include{glossary}
+    %\include{solutions}
+    %\printindex
+\end{document}
