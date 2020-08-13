@@ -1,4 +1,4 @@
-\documentclass[fontsize=9pt, DIV=calc]{scrbook}
+\documentclass[fontsize=10pt]{scrbook}
 \usepackage[T1]{ fontenc} % Darstellung der Schriften
 \usepackage[ngerman]{babel}% dtsch. Besonderheit.
 \usepackage[utf8]{ inputenc}% Dateikodierung
@@ -19,15 +19,9 @@
     %total={130mm,240mm},
     headsep=5mm,
     headheight=15mm,
-    footheight=15mm,
     twoside
  }
  \savegeometry{text}
- \newgeometry{
-    includeheadfoot,
-    %twoside=false
- }
- \savegeometry{titlepage}
 \usepackage{calc} 
 
 \begin{document}
@@ -35,12 +29,11 @@
     \author{Jens Sokat und Tim-Jonas Wechler}
     \title{Book title}
     \subtitle{-- Monograph --}
-    \loadgeometry{titlepage}
     \maketitle
 
 
     \loadgeometry{text}
-    %\frontmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \frontmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     
     %\include{dedication}
     %\include{foreword}
@@ -52,7 +45,7 @@
     %\include{acronym}
 
 
-    %\mainmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \mainmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \input{mainmatter/mementomori.tex}
     %\include{part}
     %\include{chapter}
