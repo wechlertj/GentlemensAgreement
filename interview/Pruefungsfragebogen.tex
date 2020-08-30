@@ -23,8 +23,8 @@
 %  \raisebox{\baselineskip}{\raisebox{-\height}{#2}}}
 %
 \newcommand{\janein}[2]{
-    \frame{\CheckBox[name=#1,backgroundcolor={.85 .85 .85},bordercolor={black}]{Ja}}\hspace{0.8cm}
-    \CheckBox[name=#2,backgroundcolor={.85 .85 .85},bordercolor={black}]{Nein}
+    Ja\ \frame{\CheckBox[name=#1,backgroundcolor={.85 .85 .85},bordercolor={black}]{}}\hspace{0.8cm}
+    Nein\ \frame{\CheckBox[name=#2,backgroundcolor={.85 .85 .85},bordercolor={black}]{}}
 }
 \newcommand{\eingabezeile}[1]{
     \TextField[name=#1,width=\longline,  bordercolor={black}, charsize=9pt]{}\par
@@ -89,14 +89,14 @@
 \vspace{0.5cm}
 
 \frage{Welche Altersgruppe:}\par
-\CheckBox[name=alter1,bordercolor={black}]{unter 20} \hfill
-\CheckBox[name=alter2,bordercolor={black}]{20--29} \hfill
-\CheckBox[name=alter3,bordercolor={black}]{30--39} \hfill
-\CheckBox[name=alter4,bordercolor={black}]{40--49} \par
-\CheckBox[name=alter5,bordercolor={black}]{50--59} \hfill
-\CheckBox[name=alter6,bordercolor={black}]{60--69} \hfill
-\CheckBox[name=alter7,bordercolor={black}]{70--79} \hfill
-\CheckBox[name=alter8,bordercolor={black}]{80--89} \par
+unter 20\ \frame{\CheckBox[name=alter1,bordercolor={black}]{}} \hfill
+20--29\ \frame{\CheckBox[name=alter2,bordercolor={black}]{}} \hfill
+30--39\ \frame{\CheckBox[name=alter3,bordercolor={black}]{}} \hfill
+40--49\ \frame{\CheckBox[name=alter4,bordercolor={black}]{}} \par
+50--59\ \frame{\CheckBox[name=alter5,bordercolor={black}]{}} \hfill
+60--69\ \frame{\CheckBox[name=alter6,bordercolor={black}]{}} \hfill
+70--79\ \frame{\CheckBox[name=alter7,bordercolor={black}]{}} \hfill
+80--89\ \frame{\CheckBox[name=alter8,bordercolor={black}]{}} \par
 
 \vspace{0.5cm}
 
@@ -287,13 +287,13 @@ Nein, Wieso?\par
 \newpage
 
 \subsection*{Fragen zum eigenen Leben}
-\frage{Was ist dir im bezug auf dein eigenem Leben wichtig?}\par
+\frage{Was ist dir im Bezug auf dein eigenem Leben wichtig?}\par
 \textarea{lebenwichtig}{4}
 
-\frage{Was ist deine Meinung zu dem Spruch ``Man lernt nie aus``?}\par
+\frage{Was ist deine Meinung zu dem Spruch \glqq Man lernt nie aus\grqq?}\par
 \textarea{lernen}{4}
 
-\frage{Was ist deine Meinung zu dem Spruch ``lebe als wäre es dein letzer Tag, lerne als ob du ewig leben würdest``?}\par
+\frage{Was ist deine Meinung zu dem Spruch \glqq lebe als wäre es dein letzer Tag, lerne als ob du ewig leben würdest\grqq?}\par
 \textarea{letzertagewiglernen}{4}
 
 \frage{Hast du dir schonmal über die begrenzte Zeit des Lebens Gedanken gemacht?}\\\janein{Zeitja}{zeitnein}\par
@@ -303,17 +303,17 @@ Nein, Wieso?\par
 \frage{Wenn nein, wie denkst du gerade darüber?}\par
 \textarea{zeitaendernnein}{4}
 
-\frage{``Das Leben, als ganzes ist ein Spiel der unendlichkeit``. Was denkst du über diese Aussage?}\par
+\frage{\glqq Das Leben, als ganzes ist ein Spiel der Unendlichkeit\grqq. Was denkst du über diese Aussage?}\par
 \textarea{unendlichkeit}{4}
 \newpage
         
 
 \subsection*{Gentleman}
 
-\frage{An was denkst du wenn du das Wort Lady hörst?}\par
+\frage{An was denkst du wenn du das Wort \glqq Lady\grqq \ hörst?}\par
 \textarea{lady}{4}
 
-\frage{An was denkst du wenn du das Wort ``Gentleman`` hörst?}\par
+\frage{An was denkst du wenn du das Wort \glqq Gentleman\grqq \ hörst?}\par
 \textarea{Gentleman}{4}
 
 \frage{Was verstehst du unter Gentlemen--\ (schen)\ (damals)?}\par
