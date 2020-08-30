@@ -23,8 +23,8 @@
 %  \raisebox{\baselineskip}{\raisebox{-\height}{#2}}}
 %
 \newcommand{\janein}[2]{
-    \CheckBox[name=#1,bordercolor={black}]{Ja}\hspace{0.8cm}
-    \CheckBox[name=#2,bordercolor={black}]{Nein}
+    \frame{\CheckBox[name=#1,backgroundcolor={.85 .85 .85},bordercolor={black}]{Ja}}\hspace{0.8cm}
+    \CheckBox[name=#2,backgroundcolor={.85 .85 .85},bordercolor={black}]{Nein}
 }
 \newcommand{\eingabezeile}[1]{
     \TextField[name=#1,width=\longline,  bordercolor={black}, charsize=9pt]{}\par
