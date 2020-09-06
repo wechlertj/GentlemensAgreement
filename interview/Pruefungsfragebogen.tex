@@ -19,6 +19,23 @@
 \setlength{\parindent}{0pt}
 
 \renewcommand{\emph}[1]{\textbf{#1}}
+%\renewcommand*{\LayoutTextField}[2]{\makebox[7em][l]{#1: }%
+%  \raisebox{\baselineskip}{\raisebox{-\height}{#2}}}
+%
+\newcommand{\janein}[2]{
+    \CheckBox[name=#1,bordercolor={black}]{Ja}\hspace{0.8cm}
+    \CheckBox[name=#2,bordercolor={black}]{Nein}
+}
+\newcommand{\eingabezeile}[1]{
+    \TextField[name=#1,width=\longline,  bordercolor={black}, charsize=9pt]{}\par
+}
+\newcommand{\textarea}[2]{
+    \TextField[name=#1,multiline=true,height=#2\baselineskip,width=\longline,bordercolor={black},backgroundcolor={.85 .85 .85}]{}\par\vspace{0.5cm}
+}
+
+\newdimen\longline
+\longline=\textwidth\advance\longline-6em
+
 
 \begin{document}
 
@@ -29,6 +46,7 @@
 %\vspace{-3em}
 
 \begin{abstract}
+<<<<<<< HEAD
     {\color{red} Kontaktdaten zum antwort schicken und wo man es herunterladen kann.\\ Kurze Einleitung und Erklärung}
 
 
@@ -63,32 +81,64 @@
     
     Viele Grüße wünschen Ihnen
     Jens Sokat und Tim-Jonas Wechler
+=======
+    %Jeder von uns kennt den Begriff ``Gentleman``. Aus der Historie hat der Begriff mit einem rechtschaffenden, wohlbenehmenden, 
+    %uneigennützig handelnden und gebildeten Mann zu tun. So wie alle Begriffe mit einem zeitlichen und historischen Kontext
+    %versehen sind, so wandelte sich auch jeneder Begriff des Gentleman von einem Adelstitel hin zu allerherand anderem.
+    %So wie es sich um die höfliche Begrüßung einer Mann-schaft handeln kann, so wird der Begriff auch in Social-Media-Netzwerken
+    %dafür verwendet, Männer mit Reichtum und Luxus, wenn auch nur scheinbar, und/oder einer entsprechenden weiblichen Gefolgschaft,
+    %zu beschreiben. Die (damalige) ursprüngliche Beschreibung, hat kaum noch was mit der heutigen Verwendung zu tun.
+    %Dennoch, dass klassische Bild eines Gentleman ist nicht aus den Köpfen verschwunden. Lediglich darf heute nicht nur der
+    %Mann als ein Wesen beschrieben werden, dessen Charakterzüge oben genannte sein können. Frauen, Diverse, alle Mitmenschen
+    %können Charakterzüge aufweisen, die jemand als löblich bezeichnen würde. Ebenso umgekehrt.
+    %Da es nach moderenn Maßstäben, der geschlechtlichen Gleichberechtigung, falsch ist das Bild des starken Mannes und der 
+    %untergeordneten Frau neu aufblühen zu lassen, wollen wir den Gentleman, grundlegend überarbeiten 
+    %und in der Moderne salonfähig machen. Der Gentleman muss kein Mann sein. ``Man`` kann ebenfalls mit Mensch übersetzt werden.
+    %Daraus ergibt sich der Gentlemensch. Und für eben diesen ist dieses Buch gedacht.
+    %\\ 
+    %\\ 
+    %
+    %%Version TJ
+    %Wir Menschen sind in einem stetigen Wandel. Der akutelle Trend ist erschreckend. Der einzelne definiert sich durch materiele Dinge und handelt ausschließlich zum Eigenwohl. Die Menschen im Umfeld werden dabei vernachläsigt. Ein fairer Umgang ist unmöglich.\par\smallskip
+    %Jeder von uns kennt den Begriff ``Gentleman``. Aus der Historie hat der Begriff mit einem rechtschaffenden, wohlbenehmenden, 
+    %uneigennützig handelnden und gebildeten Mann zu tun.
+    %Damals noch als Begriff für den Adel, so hat sich auch die Nutzung dieses Begriffes geändert. Heutzutage ist der Begriff einerseits als Begrüßung des Mannes zu geschrieben. 
+    %Zum anderen wird des Begriff überwiegend in Social-Media-Netzwerken dafür benutzt um einen Mann mit Geld, Luxus und Frauen zu beschreiben. 
+    %Die (damalige) eigentliche Beschreibung, aus der Historie, hat kaum noch was mit der heutigen Verwendung zu tun. 
+    %Da es in der heutigen Zeit, der geschlechtlichen Gleichberechtigung, falsch ist das Bild des starken Mann und der 
+    %untergeordneten Frau neu aufblühen zu lassen. Wollen wir den Gentleman, nach heutigen Maßstäben, grundlegend überarbeiten 
+    %und salonfähig machen.\par\smallskip 
+    %
+    %Mit Hilfe des neudefinierten Gentleman, soll dieses Buch einen Verhaltenskodex und Inspiration liefern, sich mit seinem Umfeld  auseinander zusetzen. Durch eine Veränderung der Herangehensweise wie auch Betrachtungsweise, werden sich neue Möglichkeiten im Alltag sowie im Berufsleben eröffnen. (Formulierung noch bisschen schwammig)
+    %
+    %Viele Grüße wünschen Ihnen
+    %Jens Sokat und Tim-Jonas Wechler
+>>>>>>> 0d02d3ebb818a63a1a950f225618b873fd7b082a
 \end{abstract}
 
 \section*{Zur Person}
 
-\frage{Welchen Tätigkeit wird ausgeführt?}
-\hfill\hfilloutline{9cm}
+\frage{Welchen Tätigkeit wird ausgeführt?}\par
+\eingabezeile{tätigkeit}
+\frage{In welchem Bereich?}\par
+\eingabezeile{tätigkeitsbereich}
 
+\vspace{0.5cm}
 
-\frage{In welchem Bereich?}
-\TextField[name=Vorname, width=5cm,  bordercolor={black}, borderstyle=U, value={}]
-\hfill\hfilloutline{9cm}
+\frage{Welche Altersgruppe:}\par
+\CheckBox[name=alter1,bordercolor={black}]{unter 20} \hfill
+\CheckBox[name=alter2,bordercolor={black}]{20--29} \hfill
+\CheckBox[name=alter3,bordercolor={black}]{30--39} \hfill
+\CheckBox[name=alter4,bordercolor={black}]{40--49} \par
+\CheckBox[name=alter5,bordercolor={black}]{50--59} \hfill
+\CheckBox[name=alter6,bordercolor={black}]{60--69} \hfill
+\CheckBox[name=alter7,bordercolor={black}]{70--79} \hfill
+\CheckBox[name=alter8,bordercolor={black}]{80--89} \par
 
+\vspace{0.5cm}
 
-\frage{Welche Altersgruppe}\\
-\checkbox{} unter 20 \hfill
-\checkbox{} 20--29 \hfill
-\checkbox{} 30--39 \hfill
-\checkbox{} 40--49 \\
-\checkbox{} 50--59 \hfill
-\checkbox{} 60--69 \hfill
-\checkbox{} 70--79 \hfill
-\checkbox{} 80--89
-
-\frage{Gibt es eine eigene Familie?}\hfill \checkbox{} Ja\hspace{0.8cm}\checkbox{} Nein\par
-\frage{Falls ja, sind Kinder in der Familie?}\hfill \checkbox{} Ja\hspace{0.8cm}\checkbox{} Nein
-\TextField[multiline, name=Notizen,width=0.9\textwidth,  height=3.25cm, value={}, backgroundcolor={0.95 0.95 0.95}]{}
+\frage{Gibt es eine eigene Familie?} \ \janein{familieja}{familienein}\par
+\frage{Falls ja, sind Kinder in der Familie?} \ \janein{kinderja}{kindernein}
 \newpage
 %\frage{Wer hat die Prüfung abgenommen?}
 %\hfill\hfilloutline{7.5cm}
@@ -122,27 +172,26 @@
 
 
 \section*{Fragen zum Thema verbale und nonverbale Kommunikation}
+\frage{{Was verstehst du unter einer \emph{Disskusion}?}}\par
+\textarea{Disskusion}{6}
 
-\frage{Was verstehst du unter einer \emph{Disskusion}?}
-\vspace{3cm}
+\frage{Was ist für dich ein \emph{Streit}?}\par
+\textarea{streit}{6}
 
-\frage{Was ist für dich ein \emph{Streit}?}
-\vspace{3cm}
+\frage{Wieso kommt es deiner Meinung nach bei vielen Streits zu \emph{keinem Ergebnis}?}\par
+\textarea{keinErgebnis}{6}
 
-\frage{Wieso kommt es deiner Meinung nach bei vielen Streits zu \emph{keinem Ergebnis}?}
-\vspace{3cm}
+\frage{Was macht für dich ein \emph{gutes Gespräch} aus?}\par
+\textarea{gutesGespräch}{6}
 
-\frage{Was macht für dich ein \emph{gutes Gespräch} aus?}
-\vspace{4cm}
+\frage{In welchen Situationen würdest du gerne ein \emph{Sie} hören und wann ein \emph{du}?}\par
+\textarea{sieich}{6}
 
-\frage{In welchen Situationen würdest du gerne ein \emph{Sie} hören und wann ein \emph{du}?}
-\vspace{3cm}
+\frage{Wie sollte man sich in einer politischen Diskussion verhalten?}\par
+\textarea{politdiskussion}{6}
 
-\frage{Wie sollte man sich in einer politischen Diskussion verhalten?}
-\vspace{7cm}
-
-\frage{Was ist für dich political correctness und wie wichtig ist sie?}
-\vspace{3cm}
+\frage{Was ist für dich political correctness und wie wichtig ist sie?}\par
+\textarea{politicalcorrectness}{6}
 
 \newpage
 
@@ -151,96 +200,84 @@
 
 
 \section*{Umgang mit Menschen}
-\frage{Was sind für dich die wichtigsten \emph{Benimmregeln}, wenn du bei jemanden zum Essen eingeladen wirst?}
-\vspace{5cm}
+\frage{Was sind für dich die wichtigsten \emph{Benimmregeln}, wenn du bei jemanden zum Essen eingeladen wirst?}\par
+\textarea{Benimmregeln}{4}
 
 \frage{Was sind für dich verhaltenstechnisch die drei größten \emph{No-goes?}}
 \begin{enumerate}
-    \item \hfill\hfilloutline{15cm}
-    \item \hfill\hfilloutline{15cm}
-    \item \hfill\hfilloutline{15cm}
+    \item \eingabezeile{nogoes1}
+    \item \eingabezeile{nogoes2}
+    \item \eingabezeile{nogoes3}
 \end{enumerate}
 \frage{Warum?}
 \begin{enumerate}
-    \item \hfill\hfilloutline{15cm}\\ \\ \hfill\hfilloutline{15cm}
-    \item \hfill\hfilloutline{15cm}\\ \\ \hfill\hfilloutline{15cm}
-    \item \hfill\hfilloutline{15cm}\\ \\ \hfill\hfilloutline{15cm}
+    \item \eingabezeile{nogoeswarum1}
+    \item \eingabezeile{nogoeswarum2}
+    \item \eingabezeile{nogoeswarum3}
 \end{enumerate}
-%\vspace{1cm}
+\vspace{0.5cm}
+
+
+\frage{Wie sollte aus deiner Sicht eine \emph{Bewerbung} optimalerweise bearbeitet werden?}\par
+\textarea{bewerbung}{4}
+
+\frage{Wenn du über \emph{Prominente} nachdenkst, bei wem würdest du sagen er/sie benimmt sich richtig und bei wem ist das nicht der Fall?}\par
+\textarea{prominente}{4}
+
+\frage{Was macht für dich einen \emph{guten} Menschen aus? Was einen \emph{bösen}?}\\
+gut :\par
+\textarea{menschgut}{3}\vspace{-0.5cm}
+böse:\par
+\textarea{menschboese}{3}
+
+
+\frage{Was war deine letzte \emph{egoistische Handlung} und wie kam es dazu?}\par
+\textarea{egohandlung}{4}
+
+\frage{Fühlst du dich schuldig oder unwohl deswegen?} \janein{schuldja}{schuldnein}\\
+\frage{Warum?}\par
+\textarea{schuldwarum}{4}
+
+\frage{Was ist dir an einer \emph{zwischenmenschlichen} Beziehung am wichtigsten und warum liegt deine Priorität da?}\par
+\textarea{zwischenmenschlich}{4}
 \newpage
-
-\frage{Wie sollte aus deiner Sicht eine \emph{Bewerbung} optimalerweise bearbeitet werden?}
-\vspace{4cm}
-
-\frage{Wenn du über \emph{Prominente} nachdenkst, bei wem würdest du sagen er/sie benimmt sich richtig und bei wem ist das nicht der Fall?}
-\vspace{3cm}
-
-\frage{Was macht für dich einen \emph{guten} Menschen aus? Was einen \emph{bösen}?}
-\begin{enumerate}
-    \item [gut :]\hfill\hfilloutline{15cm}\\ \\ \hfill\hfilloutline{15cm}
-    \item [böse:]\hfill\hfilloutline{15cm}\\ \\ \hfill\hfilloutline{15cm}
-\end{enumerate}
-\vspace{1cm}
-
-\frage{Was war deine letzte \emph{egoistische Handlung} und wie kam es dazu?}
-\vspace{4cm}
-
-\frage{Fühlst du dich schuldig oder unwohl deswegen?} \ \checkbox{} Ja\hspace{0.8cm}\checkbox{} Nein
-%\vspace{3cm}
-\newpage
-
-\frage{Warum?}
-\vspace{3cm}
-
-\frage{Was ist dir an einer \emph{zwischenmenschlichen} Beziehung am wichtigsten und warum liegt deine Priorität da?}
-\vspace{4cm}
-
-\frage{Wo liegt der Unterschied zwischen der \emph{Queen} bezüglich der Engländer und der Person die dir am wichtigsten in dieser Welt ist?
+\frage{\color{red}formulierung find ich nich ganz passend.Wo liegt der Unterschied zwischen der \emph{Queen} bezüglich der Engländer und der Person die dir am wichtigsten in dieser Welt ist?
 Würdest du dich am Tisch dieser zwei \emph{unterschiedlich} verhalten?}
-\checkbox{} Ja\hspace{0.8cm}\checkbox{} Nein \\
+\janein{queenja}{queennein}\\
 
-Ja: Wirklich? Könntest du das versprechen? \ \checkbox{} Ja\hspace{0.8cm}\checkbox{} Nein \\
-Wieso bist du dir da sicher?
-\vspace{2cm}
+Ja: Wirklich? Könntest du das versprechen? \ \janein{tischja}{tischnein} \\
+Wieso bist du dir da sicher?\par
+\textarea{queensicher}{3}\vspace{-0.5cm}
+Nein: Warum nicht?\par
+\textarea{queennicht}{3}
 
-Nein: Warum nicht? 
-\vspace{3cm}
+\frage{Gibt es Situationen in denen \emph{Egoismus} in definiertem Maße erlaubt/angebracht ist?}\par
+\textarea{Egoismus}{5}
 
-\frage{Gibt es Situationen in denen \emph{Egoismus} in definiertem Maße erlaubt/angebracht ist?}
-\vspace{3cm}
-
-\frage{Würdest du das auch so sehen wenn du auf der anderen Seite stehst?}
-\vspace{3cm}
+\frage{Würdest du das auch so sehen wenn du auf der anderen Seite stehst?}\par
+\textarea{egoseite}{5}
 
 \frage{Findest du deine Mitmenschen sollten \emph{auf dich hören}? Warum?} \\ 
-\checkbox{} Ja\\
-Wieso?\\
-\vspace{1cm}
+Ja, Wieso?\par
+\textarea{hörenja}{3}\vspace{-0.5cm}
+Nein, Wieso?\par
+\textarea{hörennein}{3}
 
-\checkbox{} Nein\\ 
-Wieso?\\
-\vspace{1cm}
+\frage{Was bedeutet für dich \emph{Respekt}?}\par
+\textarea{Respekt}{3}
 
-\frage{Was bedeutet für dich \emph{Respekt}?}
-\vspace{3cm}
+\frage{Was ist die wichtigste Charaktereigenschaft?}\par
+\eingabezeile{charaktereigenschaft}
+\frage{Warum?}\par
+\textarea{eigenschaftwarum}{2}
 
-\frage{Wie definierst du Gesellschaft?}
-\vspace{3cm}
-
-\frage{Was ist die wichtigste Charaktereigenschaft?} \hfill\hfilloutline{7.5cm}
-\frage{Warum?}
-\vspace{2cm}
-
-\newpage
-\frage{Wann \emph{vertraust} du einer anderen Person?}
-\vspace{3cm}
+\frage{Wann \emph{vertraust} du einer anderen Person?}\par
+\textarea{vertrauen}{3}
 
 
-\frage{Bist du ein \emph{Familienmensch}? Warum?}
-\vspace{3cm}
+\frage{Bist du ein \emph{Familienmensch}? Warum?}\par
+\textarea{Familienmensch}{4}
 
-\frage{Was ist deiner Meinung nach der größte \emph{Vorteil} in einer Gesellschaft zu leben?}
-\vspace{3cm}
 
 
 
@@ -249,53 +286,81 @@ Wieso?\\
 \newpage
 \section*{Verhalten der Menschen}
 
-\frage{Glaubst du der Spruch: \emph{Die Welt ist dein Spiegel} trifft zu? Warum?}
-\vspace{3cm}
+\frage{Glaubst du der Spruch: \emph{Die Welt ist dein Spiegel} trifft zu? Warum?}\par
+\textarea{spiegel}{4}
 
-\frage{Gibt es etwas das andere \emph{dir gegenüber an Verhalten an den Tag legen}, dass du kritisieren würdest?}
-\vspace{3cm}
+\frage{Gibt es etwas das andere \emph{dir gegenüber an Verhalten an den Tag legen}, dass du kritisieren würdest?}\par
+\textarea{verhalten}{4}
 
-\frage{Wie sollen sich Leute dir gegenüber verhalten?}
-\frage{Hälst du dich daran?}
-\vspace{2cm}
+\frage{Wie sollen sich Leute dir gegenüber verhalten?}\par
+\textarea{verhaltenandere}{4}\vspace{-0.5cm}
+\frage{Hälst du dich daran?}\janein{haltenja}{haltennein}\par\vspace{0.5cm}
 
+\frage{Würdest du was in der Gesellschaft ändern?}\ \janein{gesellschaftja}{gesellschaftnein}\\
+\frage{Wenn ja, was und warum?}\par
+\textarea{Gesellschaftaendern}{4}
 
-\frage{Würdest du was in der Gesellschaft ändern?}\ \checkbox{} Ja\hspace{0.8cm}\checkbox{} Nein\\
-\frage{Wenn ja, was und warum?}
-\vspace{3cm}
+\frage{Was heißt für dich der Begriff ``Gesellschaft``}\par
+\textarea{Gesellschaft}{4}
 
-\frage{Hältst du einen Konsens bezüglich einer modernen Knigge für wichtig? Warum?}
-\vspace{3cm}
+\frage{Was ist deiner Meinung nach der größte \emph{Vorteil} in einer Gesellschaft zu leben?}\par
+\textarea{Gesellschaftvorteil}{4}
+
+\frage{Was sind deine Gedanken bezüglich Internet und der heutigen Gesellschaft?}\par
+\textarea{InternetGedanken}{4}
+
+\frage{Wenn du über eine entschleunigte Gesellschaft nachdenkst, was fällt dir dazu ein?}\par
+\textarea{entschleunigung}{4}
+
+\frage{Hältst du einen Konsens bezüglich einer modernen Knigge für wichtig? Warum?}\par
+\textarea{knigge}{4}
+
+\frage{Braucht es deiner Meinung nach eine Aufklärung im Umgang mit den Mitmenschen?}\\
+\janein{aufklärungja}{aufklärungnein}\\
+\frage{Wenn ja, warum und worin sollte der Schwerpunkt liegen?}\par
+\textarea{mitmenschenschwerpunkt}{4}
+
 %------------------------------------------------------
 \newpage
+
+\subsection*{Fragen zum eigenen Leben}
+\frage{Was ist dir im bezug auf dein eigenem Leben wichtig?}\par
+\textarea{lebenwichtig}{4}
+
+\frage{Was ist deine Meinung zu dem Spruch ``Man lernt nie aus``?}\par
+\textarea{lernen}{4}
+
+\frage{Was ist deine Meinung zu dem Spruch ``lebe als wäre es dein letzer Tag, lerne als ob du ewig leben würdest``?}\par
+\textarea{letzertagewiglernen}{4}
+
+\frage{Hast du dir schonmal über die begrenzte Zeit des Lebens Gedanken gemacht?}\\\janein{Zeitja}{zeitnein}\par
+\frage{Wenn ja, was hat sich für dich dafür verändert?}\par
+\textarea{zeitaendernja}{4}\vspace{-0.5cm}
+
+\frage{Wenn nein, wie denkst du gerade darüber?}\par
+\textarea{zeitaendernnein}{4}
+
+\frage{``Das Leben, als ganzes ist ein Spiel der unendlichkeit``. Was denkst du über diese Aussage?}\par
+\textarea{unendlichkeit}{4}
+\newpage
+        
+
 \subsection*{Gentleman}
 
-\frage{An was denkst du wenn du das Wort Lady hörst?}
-\vspace{3cm}
+\frage{An was denkst du wenn du das Wort Lady hörst?}\par
+\textarea{lady}{4}
 
-\frage{An was denkst du wenn du das Wort Gentleman hörst?}
-\vspace{3cm}
+\frage{An was denkst du wenn du das Wort ``Gentleman`` hörst?}\par
+\textarea{Gentleman}{4}
 
-\frage{Was verstehst du unter Gentlemen--\ (schen)\ (damals)?}
-\vspace{2cm} 
+\frage{Was verstehst du unter Gentlemen--\ (schen)\ (damals)?}\par
+\textarea{gentlemensch}{4}
 
-\frage{Wie sollte er heute sein?}
-\vspace{2cm}
+\frage{Wie sollte er heute sein?}\par
+\textarea{gentleheute}{4}
 
-\frage{Was macht ihn aus?}
-\vspace{2cm}
-
-\newpage
-\frage{Braucht es deiner Meinung nach eine Aufklärung im Umgang mit den Mitmenschen?}\\
-\checkbox{} Ja\hspace{0.8cm}\checkbox{} Nein \par
-\frage{Wenn ja, warum und worin sollte der Schwerpunkt liegen?}
-\vspace{3cm}
-
-\frage{Wie beeinflusst uns das Internet?}
-\vspace{4cm}
-
-\frage{Wäre eine Entschleunigung der Gesellschaft deiner Meinung eine gute Maßnahme um Kommuniation untereinander zufördern?}\hfill\checkbox{} Ja\hspace{0.8cm}\checkbox{} Nein
-
+\frage{Was macht ihn aus?}\par
+\textarea{gentleausmachen}{4}
 \end{document}
 
 
