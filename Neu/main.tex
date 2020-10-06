@@ -35,20 +35,20 @@
     \loadgeometry{text}
     \frontmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     
-    %\include{dedication}
-    %\include{foreword}
-    %\include{preface}
-    %\include{acknowledgement}
-
+    %\include{socialmediaandperson}
+    %\include{insidecover}
+    %\include{vorbemerkungundverlag}
     \tableofcontents
-
-    %\include{acronym}
-
+    \include{frontmatter/vorwort.tex}
+    %\include{erklaerung}
+    %\include{acknowledgement}
+    %\include{einleitung}
 
     \mainmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \input{mainmatter/mementomori.tex}
+    
     %\include{part}
-    %\include{chapter}
+        %\include{chapter}
+        \input{mainmatter/mementomori.tex}
     %\include{appendix}
 
     %\backmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
