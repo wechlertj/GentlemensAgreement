@@ -1,0 +1,5 @@
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Vorwort}{1}% 
+\contentsline {chapter}{\numberline {2}Memento Mori führt zu Carpe Diem}{3}% 
+\contentsline {section}{\numberline {2.1}Memento Mori}{3}% 
+\contentsline {section}{\numberline {2.2}Carpe Diem}{3}% 
